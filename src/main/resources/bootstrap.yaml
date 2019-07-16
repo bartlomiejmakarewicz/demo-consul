@@ -10,7 +10,3 @@ spring:
       discovery:
         enabled: true
         service-id: cloud-config-service
-management:
-  endpoint:
-    health:
-      show-details: always
