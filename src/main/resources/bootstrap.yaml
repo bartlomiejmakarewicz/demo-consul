@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: demo-consul
+  cloud:
+    consul:
+      host: consul
+      config:
+        fail-fast: false
+management:
+  endpoint:
+    health:
+      show-details: always
