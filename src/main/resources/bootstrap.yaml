@@ -5,3 +5,8 @@ spring:
     config:
       uri: http://cloud-config-service:8888
       fail-fast: true
+      discovery:
+        enabled: true
+        service-id: cloud-config-service
+    consul:
+      host: consul

@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: demo-consul
+  cloud:
+    config:
+      enabled: false
+    consul:
+      discovery:
+        fail-fast: false
+      host: localhost
+server:
+  port: 8081
