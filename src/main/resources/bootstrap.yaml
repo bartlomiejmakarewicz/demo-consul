@@ -8,5 +8,9 @@ spring:
       discovery:
         enabled: true
         service-id: cloud-config-service
+      retry:
+        multiplier: 2
+        max-interval: 32000
+        max-attempts: 10
     consul:
       host: consul
